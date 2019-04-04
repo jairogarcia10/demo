@@ -1,0 +1,14 @@
+uuid: e7cb9abf-2db0-4599-9645-c54f9a27ce0c
+name: JAGASI
+mail: pelusa@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
