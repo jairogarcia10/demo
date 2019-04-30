@@ -1,0 +1,11 @@
+uuid: e4189569-739d-4368-8a64-633fe716ed05
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.curso
+id: node.curso
+target_entity_type_id: node
+target_bundle: curso
+default_langcode: site_default
+language_alterable: false

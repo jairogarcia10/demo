@@ -1,0 +1,25 @@
+uuid: 55fba059-260a-4180-bb43-85da080b56eb
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video01
+    - node.type.curso
+  module:
+    - video_embed_field
+id: node.curso.field_video01
+field_name: field_video01
+entity_type: node
+bundle: curso
+label: video01
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: vimeo
+    youtube: youtube
+    youtube_playlist: '0'
+field_type: video_embed_field

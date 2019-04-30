@@ -8,13 +8,15 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - image.style.large
+    - field.field.node.article.field_videop
     - node.type.article
+    - responsive_image.styles.prueba
   module:
     - comment
-    - image
+    - responsive_image
     - text
     - user
+    - video_embed_field
 _core:
   default_config_hash: ChmU3AVqDKU32A_fyChG0W9dTRKmVBR58B6OClCLvZI
 id: node.article.default
@@ -39,11 +41,11 @@ content:
       pager_id: 0
     third_party_settings: {  }
   field_image:
-    type: image
+    type: responsive_image
     weight: -1
     region: content
     settings:
-      image_style: large
+      responsive_image_style: prueba
       image_link: ''
     third_party_settings: {  }
     label: hidden
@@ -55,9 +57,21 @@ content:
     settings:
       link: true
     third_party_settings: {  }
+  field_videop:
+    weight: 111
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
   links:
     weight: 100
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  langcode: true

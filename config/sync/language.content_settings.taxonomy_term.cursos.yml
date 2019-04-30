@@ -1,0 +1,11 @@
+uuid: f90b506a-f309-4ca5-8616-0a9758c3b623
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cursos
+id: taxonomy_term.cursos
+target_entity_type_id: taxonomy_term
+target_bundle: cursos
+default_langcode: site_default
+language_alterable: false

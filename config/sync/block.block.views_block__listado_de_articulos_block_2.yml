@@ -1,0 +1,38 @@
+uuid: c4318074-5a31-4353-bc7c-e1d0ecf31a1e
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.listado_de_articulos
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__listado_de_articulos_block_2
+theme: bartik
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'views_block:listado_de_articulos-block_2'
+settings:
+  id: 'views_block:listado_de_articulos-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: ''
+    negate: true
+    context_mapping: {  }

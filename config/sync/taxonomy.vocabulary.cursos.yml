@@ -1,0 +1,9 @@
+uuid: ed71dd32-2f69-41d4-b2d3-7387f2e34cc2
+langcode: es
+status: true
+dependencies: {  }
+name: Cursos
+vid: cursos
+description: 'Cursos impartidos'
+hierarchy: 0
+weight: 0

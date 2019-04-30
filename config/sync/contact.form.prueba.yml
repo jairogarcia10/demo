@@ -1,0 +1,12 @@
+uuid: e1ada342-15f8-437a-aa69-b1100de08372
+langcode: es
+status: true
+dependencies: {  }
+id: prueba
+label: prueba
+recipients:
+  - jq@hotmail.com
+reply: 'gracias llenar esta vara'
+weight: 0
+message: ola
+redirect: ''

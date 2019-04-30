@@ -1,0 +1,19 @@
+uuid: f7f1a8d7-fa54-413d-8fa1-052e2a1bc37f
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - video_embed_field
+id: node.field_videop
+field_name: field_videop
+entity_type: node
+type: video_embed_field
+settings: {  }
+module: video_embed_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
